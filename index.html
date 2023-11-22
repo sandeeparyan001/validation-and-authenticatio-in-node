@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+        <h1 class="para"></h1>
+    <script>
+        
+        let loadfunc = () =>{
+            let para = document.querySelector('.para');
+            para.innerHTML = " "
+            setTimeout(()=>{
+                para.innerHTML = "S";
+            },1000)
+            setTimeout(()=>{
+                para.innerHTML = "Sa";
+            },2000)
+            setTimeout(()=>{
+                para.innerHTML = "San";
+            },3000)
+            setTimeout(()=>{
+                para.innerHTML = "Sand";
+            },4000)
+            setTimeout(()=>{
+                para.innerHTML = "Sande";
+            },5000)
+            setTimeout(()=>{
+                para.innerHTML = "Sandee";
+            },6000)
+            setTimeout(()=>{
+                para.innerHTML = "Sandeep";
+            },7000)
+            setTimeout(()=>{
+                para.innerHTML = "Sandee";
+            },8000)
+            setTimeout(()=>{
+                para.innerHTML = "Sande";
+            },9000)
+            setTimeout(()=>{
+                para.innerHTML = "Sand";
+            },10000)
+            setTimeout(()=>{
+                para.innerHTML = "San";
+            },11000)
+            setTimeout(()=>{
+                para.innerHTML = "Sa";
+            },12000)
+            setTimeout(()=>{
+                para.innerHTML = "S";
+            },13000)
+        };
+        loadfunc();
+        setInterval(loadfunc,14000);
+    </script>
+</body>
+</html>
